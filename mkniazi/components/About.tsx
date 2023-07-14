@@ -2,6 +2,9 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Portfolio from "./Portfolio";
+import Info from "./Info";
+import Experience from "./Experience";
+import { Button } from "@/components/ui/button";
 
 const About: React.FC<{}> = () => {
   return (
@@ -49,10 +52,15 @@ const About: React.FC<{}> = () => {
 
       <Portfolio />
 
-      
+      <Info />
 
+      {/* <hr className="w-[92%] mt-[4%] border-[1px] " style={{ color: "black" }} /> */}
 
+      {/* <Experience /> */}
 
+      {/* <hr className="w-[92%] mt-[4%] border-[1px] " style={{ color: "black" }} /> */}
+
+      <Button className="rounded-full w-[40%] m-10  text-s text-white">Let’s talk</Button>
     </div>
   );
 };
