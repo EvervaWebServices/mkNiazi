@@ -7,6 +7,14 @@ import Experience from "./Experience";
 import { Button } from "@/components/ui/button";
 
 const About: React.FC<{}> = () => {
+  const descriptions = [
+    ` I am a design enthusiast working to help companies stand out through user-centric visual strategies. I've worked
+  with more than 20 companies as a freelancer on brand identity, package design, and web design, aka improving
+  their brand representation/narrative`,
+    `  I am a design enthusiast working to help companies stand out through user-centric visual strategies. I've
+worked with more than 20 companies as a freelancer on brand identity, package design, and web design, ak`,
+  ];
+
   return (
     <div className="flex items-center min-h-screen bg-white flex-col pt-10 ">
       <Avatar className="w-[190px] h-[190px] z-2 mt-[52px]">
@@ -19,34 +27,21 @@ const About: React.FC<{}> = () => {
         <AvatarFallback>MK</AvatarFallback>
       </Avatar>
 
-      <h3 className="mt-[12%] px-5 text-[16px] text-[#3A3A3A]">
-        I am a design enthusiast working to help companies stand out through user-centric visual strategies. I've worked
-        with more than 20 companies as a freelancer on brand identity, package design, and web design, aka improving
-        their brand representation/narrative
-      </h3>
+      <h3 className="mt-[12%] px-5 text-[16px] text-[#3A3A3A]">{descriptions[0]}</h3>
       <hr className="w-[92%] mt-[4%] border-[1px] " style={{ color: "black" }} />
 
       <Accordion type="single" collapsible className="w-[92%] ">
         <AccordionItem className="border-b-2" value="item-1">
           <AccordionTrigger>Identity Design</AccordionTrigger>
-          <AccordionContent>
-            I am a design enthusiast working to help companies stand out through user-centric visual strategies. I've
-            worked with more than 20 companies as a freelancer on brand identity, package design, and web design, ak
-          </AccordionContent>
+          <AccordionContent>{descriptions[1]}</AccordionContent>
         </AccordionItem>
         <AccordionItem className="border-b-2" value="item-2">
           <AccordionTrigger>Pakaging Design</AccordionTrigger>
-          <AccordionContent>
-            I am a design enthusiast working to help companies stand out through user-centric visual strategies. I've
-            worked with more than 20 companies as a freelancer on brand identity, package design, and web design, ak
-          </AccordionContent>
+          <AccordionContent>{descriptions[1]}</AccordionContent>
         </AccordionItem>
         <AccordionItem className="border-none" value="item-3">
           <AccordionTrigger className=" ">Web Design</AccordionTrigger>
-          <AccordionContent>
-            I am a design enthusiast working to help companies stand out through user-centric visual strategies. I've
-            worked with more than 20 companies as a freelancer on brand identity, package design, and web design, ak
-          </AccordionContent>
+          <AccordionContent>{descriptions[1]}</AccordionContent>
         </AccordionItem>
       </Accordion>
 
