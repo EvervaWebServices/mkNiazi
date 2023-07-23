@@ -17,7 +17,7 @@ worked with more than 20 companies as a freelancer on brand identity, package de
 
   return (
     <div className="flex items-center min-h-screen bg-white flex-col pt-10 ">
-      <Avatar className="w-[190px] h-[190px] z-2 mt-[52px]">
+      <Avatar className="w-[190px] h-[190px] z-2 mt-[52px] ">
         <AvatarImage src="/niazi.png" />
         <AvatarFallback>MK</AvatarFallback>
       </Avatar>
@@ -55,7 +55,7 @@ worked with more than 20 companies as a freelancer on brand identity, package de
 
       {/* <hr className="w-[92%] mt-[4%] border-[1px] " style={{ color: "black" }} /> */}
 
-      <Button className="rounded-full w-[40%] m-10  text-s text-white">Let’s talk</Button>
+      <Button className="rounded-full w-[120px] h-[33px] text-[10px] mb-6">Let’s talk</Button>
     </div>
   );
 };
