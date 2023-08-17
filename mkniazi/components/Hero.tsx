@@ -4,28 +4,28 @@ import { Button } from "@/components/ui/button";
 const Hero: React.FC<{}> = () => {
   return (
     <div className="flex min-h-screen bg-[#ECECEC] flex-col items-stretch p-3 min-w-[370px]">
-      <div className="flex justify--stretch pt-8 sm:self-center lg:self-start pl-5 w-[100%] 2xl:w-[85%] ml-[15%]">
+      <div className="flex justify--stretch ml-[5%] pt-8 sm:self-center lg:self-start pl-5 w-[85%] 2xl:ml-[15%] ">
         <Image className="pr-8 " width={230} height={80} src="/logo.svg" alt="Logo" />
 
-        <h4 className="text-[10px] tracking-tight leading-3 font-light sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[14px]">
+        <h4 className="text-[10px] tracking-tight font-light sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[14px]">
           DESIGNER <br /> PORTFOLIO /2020 -2023
         </h4>
 
-        <h4 className="text-[10px] tracking-tight leading-3 font-light pl-6 sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[14px]">
+        <h4 className="text-[10px] tracking-tight font-light pl-6 sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[14px]">
           AVAILABLE FOR FREELANCE <br /> PROJECTS
         </h4>
         <Button className="rounded-full w-[120px] h-[33px] text-[10px] hidden lg:block ml-[10%] ">Let’s talk</Button>
       </div>
-      <div className="lg:flex 2xl:ml-[15%]">
+      <div className=" lg:flex 2xl:ml-[15%]">
       <Image
-        className="mt-[14%] self-center w-[50%] h-[50%] lg: ml-[5%] 2xl:w-[24%]  "
+        className="mt-[14%] ml-[9%] w-[80%] h-[50%] lg:ml-[5%]w-[50%] 2xl:w-[28%]  "
         width={380}
         height={330}
         src="/ellipse-3.png"
         alt="circle design"
       />
 
-      <div className=" pl-3 sm:self-center mt-[5%] lg:ml-[10%] 2xl:mt-[8%]">
+      <div className=" pl-3 sm:self-center mt-[5%] ml-5 lg:ml-[10%] 2xl:mt-[8%]">
         <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 lg:mt-16">
           Brand Identity, <br /> Packaging & Web
         </h3>
