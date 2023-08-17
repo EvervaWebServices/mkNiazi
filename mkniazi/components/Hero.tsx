@@ -24,7 +24,7 @@ const Hero: React.FC<{}> = () => {
         src="/ellipse-3.png"
         alt="circle design"
       />
-{/* settings */}
+
       <div className=" pl-3 sm:self-center mt-[5%] ml-5 lg:ml-[10%] 2xl:mt-[8%]">
         <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 lg:mt-16">
           Brand Identity, <br /> Packaging & Web
