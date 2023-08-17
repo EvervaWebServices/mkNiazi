@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 const Footer: React.FC<{}> = () => {
   return (
-    <div className=" bg-[#ECECEC] w-[100%] pt-10 px-16  ">
+    <div className=" bg-[#ECECEC] w-[100%] pt-10 px-6 lg:px-12  ">
     <div className="flex flex-row">
     <Image
         className=" w-[24px] h-[18px]"
@@ -26,7 +26,7 @@ const Footer: React.FC<{}> = () => {
         alt="circle design"
       />
 
-      <div className="  ml-[45%] lg:ml-[65%]">
+      <div className="  ml-[25%] lg:ml-[65%]">
       <Image
         className="mb-5 w-[170px]"
         width={150}
