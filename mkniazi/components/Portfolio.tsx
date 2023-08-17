@@ -5,10 +5,9 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 const Portfolio: React.FC<{}> = () => {
   return (
     <div className="w-[100%] text-white">
+      {/* for mobile view */}
       <div className="w-[100%] text-white lg:hidden">
-        {/* <AspectRatio className="z-0" ratio={16 / 9}> */}
         <img src="/work-card-2.png" alt="Photo by Drew Beamer" className=" object-cover " width="100%" />
-        {/* </AspectRatio> */}
 
         <div className="w-[100] h-[160px] bg-[#3A3A3A] opacity-50 z-20 mb-10 -mt-[43%] xs:-mt-[30%] sm:-mt-[25%]">
           <div className="flex w-[100%] p-3">
@@ -31,9 +30,9 @@ const Portfolio: React.FC<{}> = () => {
         </div>
       </div>
 
-
+{/* for desktop view */}
       <div className="hidden lg:flex bg-black flex-row">
-        <div className="pt-4 w-[50%]  ">
+        <div className="pt-4 w-[50%] ">
         <img src="/work-card-details.png" alt="Photo by Drew Beamer" className=" " width="100%" />
         </div>
 

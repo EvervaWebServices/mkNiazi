@@ -25,6 +25,12 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
+      width: {
+        '25': '25%',
+        '33': '33.333333%',
+        '66': '66.666667%',
+        '75': '75%',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
