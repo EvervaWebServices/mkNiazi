@@ -18,7 +18,7 @@ const Hero: React.FC<{}> = () => {
       </div>
       <div className=" lg:flex 2xl: items-center justify-center">
       <Image
-        className="mt-[14%] ml-[8%] h-[50%] lg:ml-[16%] "
+        className="mt-[14%] h-[50%] lg:ml-[16%] "
         width={450}
         height={450}
         src="/ellipse-3.png"
