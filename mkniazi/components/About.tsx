@@ -19,18 +19,18 @@ worked with more than 20 companies as a freelancer on brand identity, package de
 
   return (
     <div className="flex items-center min-h-screen bg-white flex-col pt-10 ">
-      <div className="flex bg-white flex-col  ml-5">
-        <div className="flex items-center  bg-white flex-col lg:flex-row ml-5 2xl:ml-[8%]">
+      <div className="flex bg-white flex-col  ml-[5%]">
+        <div className="flex items-center  bg-white flex-col lg:flex-row 2xl:justify-between w-[90%]">
           {/* for desktop display */}
-          <Avatar className="w-[190px] h-[190px] z-2 mt-[22px] lg: ml-[50px] hidden lg:block ">
-            <AvatarImage src="/niazi.png" />
-            <AvatarFallback>MK</AvatarFallback>
-          </Avatar>
+          <div className="text-[16px] mt-0 text-[#3A3A3A] w-[33%] font-[500] hidden  lg:block 2xl:text-xl">ABOUT ME</div>
 
-          <Avatar className="w-[300px] h-[300px] z-0 absolute hidden lg:block ">
+
+        
+
+          {/* <Avatar className="w-[300px] h-[300px] z-0 absolute hidden lg:block ">
             <AvatarImage src="/ellipse-3.png" />
             <AvatarFallback>MK</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
 
           {/* for mobile */}
 
@@ -45,24 +45,30 @@ worked with more than 20 companies as a freelancer on brand identity, package de
           </Avatar>
 
           <h3 className="mt-[12%] px-5 text-[16px] text-[#3A3A3A] lg:hidden font-semibold ">{descriptions[0]}</h3>
-          <h3 className="pb-[10%] pt-[10%] px-5 text-[16px] text-[#3A3A3A] w-[50%] ml-[10%] font-semibold hidden  lg:block 2xl:text-xl">
+          <h3 className="pb-[10%] pt-[10%] px-5 text-[16px] text-[#3A3A3A] w-[60%] font-semibold hidden  lg:block 2xl:text-xl">
             {descriptions[0]}
           </h3>
+          <Avatar className="w-[230px] h-[230px] z-2 mt-[22px] lg: ml-[50px] hidden lg:block ">
+            <AvatarImage src="/niazi.png" />
+            <AvatarFallback>MK</AvatarFallback>
+          </Avatar>
+
+          
         </div>
-        <div className="hidden lg:flex flex-row ml-[3%] ">
-          <div className="w-[24%] text-[#3A3A3A] mx-[1%]">
+        <div className="hidden lg:flex justify-between flex-row ">
+          <div className="w-[30%] text-[#3A3A3A] ">
             <h3 className="font-[700] text-sm pb-3 2xl:text-base">Identity Design</h3>
-            <p className="text-xs font-[500] 2xl:text-base">{descriptions[1]}</p>
+            <p className="text-xs font-[500] 2xl:text-base w-[80%]">{descriptions[1]}</p>
           </div>
-          <div className="w-[24%] text-[#3A3A3A] mx-[1%] mb-[7%]">
+          <div className="w-[30%] text-[#3A3A3A] mx-[1%] mb-[7%]">
             <h3 className="font-[700] text-sm pb-3 2xl:text-base">Pakaging Design</h3>
-            <p className="text-xs font-[500] 2xl:text-base">{descriptions[1]}</p>
+            <p className="text-xs font-[500] 2xl:text-base w-[80%]">{descriptions[1]}</p>
           </div>
-          <div className="w-[24%] text-[#3A3A3A] mx-[1%] mb-[7%]">
+          <div className="w-[30%] text-[#3A3A3A] mx-[1%] mb-[7%]">
             <h3 className="font-[700] text-sm pb-3 2xl:text-base">Web Design</h3>
-            <p className="text-xs font-[500] 2xl:text-base">{descriptions[1]}</p>
+            <p className="text-xs font-[500] 2xl:text-base w-[80%]">{descriptions[1]}</p>
           </div>
-          <div className="w-[24%] text-[#3A3A3A] ml-[1%]  ">
+          <div className="w-[16%] text-[#3A3A3A] ml-[1%]  ">
           <Button className="hidden rounded-full w-[150px] h-[36px] text-[10px] lg:block mt-[30%]  bg-[#FFFFFF] text-black hover:text-white border ml-7 2xl:mt-[20%]">SCROLL FOR MORE ▼ </Button>
           </div>
          

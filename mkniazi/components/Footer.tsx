@@ -2,10 +2,10 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 const Footer: React.FC<{}> = () => {
   return (
-    <div className=" bg-[#ECECEC] w-[100%] pt-10 px-6 lg:px-12  ">
-    <div className="flex flex-row">
+    <div className=" bg-[#ECECEC] w-[100%] pt-10 lg:  ">
+    <div className="flex  self-center w-[98%]">
     <Image
-        className=" w-[24px] h-[18px]"
+        className=" w-[24px] h-[18px] ml-[4%]"
         width={20}
         height={20}
         src="/ig.png"
@@ -46,7 +46,7 @@ const Footer: React.FC<{}> = () => {
     </div>
 
     <Image
-        className=" mb-10 lg:w-32"
+        className=" lg:w-32 ml-[3.8%] mt-[1%] mb-[2%]"
         width={100}
         height={100}
         src="/copyright.png"
