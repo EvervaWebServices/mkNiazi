@@ -18,14 +18,14 @@ const Hero: React.FC<{}> = () => {
       </div>
       <div className=" lg:flex 2xl: items-center justify-center">
       <Image
-        className="mt-[14%] h-[50%] lg:ml-[16%] "
+        className="mt-[12%] h-[50%] lg:ml-[16%] "
         width={450}
         height={450}
         src="/ellipse-3.png"
         alt="circle design"
       />
 {/* settings */}
-      <div className=" pl-3 sm:self-center mt-[5%] ml-5 lg:ml-[10%] 2xl:mt-[11%]">
+      <div className=" pl-3 sm:self-center mt-[5%] ml-5 lg:ml-[10%] 2xl:mt-[9%]">
         <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 lg:mt-16">
           Brand Identity, <br /> Packaging & Web
         </h3>
