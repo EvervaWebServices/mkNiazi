@@ -16,16 +16,16 @@ const Hero: React.FC<{}> = () => {
         </h4>
         <Button className="rounded-full w-[120px] h-[38px] text-[10px] hidden lg:block ml-[10%] ">Let’s talk</Button>
       </div>
-      <div className=" lg:flex 2xl: items-center justify-center">
+      <div className=" items-center justify-center lg:flex 2xl:">
       <Image
-        className="mt-[12%] h-[50%] lg:ml-[16%] "
+        className="mt-[9%] h-[50%] lg:ml-[16%] "
         width={450}
         height={450}
         src="/ellipse-3.png"
         alt="circle design"
       />
 {/* settings */}
-      <div className=" pl-3 sm:self-center mt-[5%] ml-5 lg:ml-[10%] 2xl:mt-[9%]">
+      <div className=" pl-3 sm:self-center mt-[4%] ml-5 lg:ml-[10%] 2xl:mt-[5%]">
         <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 lg:mt-16">
           Brand Identity, <br /> Packaging & Web
         </h3>
