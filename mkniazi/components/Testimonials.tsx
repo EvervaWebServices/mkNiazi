@@ -4,7 +4,7 @@ const Testimonials: React.FC<{}> = () => {
   return (
     <div className="p-3 lg:flex flex-1 mb-[5%] 2xl: w-[95%]">
       <div className="uppercase font-[500] lg: mt-[4%] ml-4">Testimonials</div>
-      <div className="mt-[5%] flex flex-row ml-[5%] lg:ml-[45%]">
+      <div className="mt-[5%] flex flex-row ml-[5%] lg:ml-[54%]">
         {" "}
         <Avatar className="w-[90px] h-[90px]  ml-3 ">
           <AvatarImage src="/testimonial.png" />
