@@ -21,7 +21,7 @@ const Hero: React.FC<{}> = () => {
         className=" 2xl: mr-[35%]"
         width={450}
         height={450}
-        src="/ellipse-3.png"
+        src="/hero/hero7.png"
         alt="circle design"
       />
 {/* settings */}

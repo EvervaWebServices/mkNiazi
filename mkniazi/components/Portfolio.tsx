@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import { AspectRatio } from "@/components/ui/aspect-ratio";
-
 const Portfolio: React.FC<{}> = () => {
   return (
     <div className="w-[100%] text-white">
