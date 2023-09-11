@@ -3,6 +3,7 @@ module.exports = {
   darkMode: ["class"],
   content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   theme: {
+
     screens: {
       'xs': '520px',
       'sm': '640px',
@@ -25,6 +26,12 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
+
+      fontFamily: {
+        sans: ['var(--font-visby)']
+      },
+
+
       width: {
         '25': '25%',
         '33': '33.333333%',

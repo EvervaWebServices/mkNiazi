@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero: React.FC<{}> = () => {
   return (
-    <div className="flex min-h-screen bg-[#ECECEC] flex-col items-stretch p-3 min-w-[370px]">
+    <div className="min-h-screen bg-[#ECECEC] flex-col p-3 min-w-[370px] items-center ">
       <div className="flex justify-between ml-[5%] pt-8 sm:self-center lg:self-start pl-3 w-[90%] 2xl:ml-24 ">
         <Image className=" " width={230} height={80} src="/logo.svg" alt="Logo" />
 
@@ -16,16 +16,16 @@ const Hero: React.FC<{}> = () => {
         </h4>
         <Button className="rounded-full w-[120px] h-[38px] text-[10px] hidden lg:block ml-[10%] ">Let’s talk</Button>
       </div>
-      <div className=" items-center justify-center lg:flex 2xl: h-[64rem]  ">
+      <div className="items-center lg:flex  ml-[20%] mr-[20%] pt-[12%] pb-[12%]">
       <Image
-        className=" lg: mr-[5rem]"
+        className=" 2xl: mr-[35%]"
         width={450}
         height={450}
         src="/ellipse-3.png"
         alt="circle design"
       />
 {/* settings */}
-      <div className="  lg: 2xl: w-[16rem] ml-[5rem]  ">
+      <div className="  lg: 2xl: w-[22rem] ml-[5rem]  ">
         <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 ">
           Brand Identity, <br /> Packaging & Web
         </h3>
@@ -37,7 +37,7 @@ const Hero: React.FC<{}> = () => {
       </div>
       </div>
 
-      <div className="flex mt-4 ml-3 w-[92%] sm: self-center pb-5 ">
+      <div className="flex mt-4 ml-3 w-[92%] sm: self-center pb-5">
         <Button className="rounded-full  w-[120px] h-[33px] text-[10px] hover:text-white lg:hidden">Let’s talk</Button>
         <div className="w-[100%] flex justify-end ">
           <p className="text-[10px] mt-3 lg:absolute bottom-14 right-[5%] ">@2023</p>
