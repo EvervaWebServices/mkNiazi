@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
+import { Header } from "./Header";
 
 const Hero: React.FC<{}> = () => {
   const heros = [
@@ -27,18 +28,7 @@ const Hero: React.FC<{}> = () => {
 
   return (
     <div className="min-h-screen bg-[#ECECEC] flex-col p-3 min-w-[370px] items-center ">
-      <div className="flex justify-between ml-[5%] pt-8 sm:self-center lg:self-start pl-3 w-[90%] 2xl:ml-24 ">
-        <Image className=" " width={230} height={80} src="/logo.svg" alt="Logo" />
-
-        <h4 className="text-[10px] tracking-tight font-light sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:">
-          DESIGNER <br /> PORTFOLIO /2020 -2023
-        </h4>
-
-        <h4 className="text-[10px] tracking-tight font-light pl-6 sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:">
-          AVAILABLE FOR FREELANCE <br /> PROJECTS
-        </h4>
-        <Button className="rounded-full w-[120px] h-[38px] text-[10px] hidden lg:block ml-[10%] ">Let’s talk</Button>
-      </div>
+      <Header />
       <div className="items-center lg:flex  ml-[20%] mr-[20%] pt-[12%] pb-[12%]">
         {/* {heros.map((h) => (
           <Image key={h} className="mr-0 2xl:mr-[35%] " width={450} height={450} src={h} alt="circle design" />
@@ -47,7 +37,7 @@ const Hero: React.FC<{}> = () => {
         <Image className="mr-0 2xl:mr-[35%] " width={450} height={450} src={heros[count] ? heros[count] : "/hero/hero1.png"} alt="circle design" />
 
         {/* settings */}
-        <div className="  lg: 2xl: w-[22rem] ml-[5rem]  ">
+        <div className="ml-[-4rem]  lg:ml-[5rem] 2xl: w-[22rem]">
           <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 ">
             Brand Identity, <br /> Packaging & Web
           </h3>

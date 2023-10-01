@@ -102,7 +102,7 @@ worked with more than 20 companies as a freelancer on brand identity, package de
 
       <Testimonials />
 
-      <Button className="rounded-full w-[120px] h-[33px] text-[10px] mb-6 lg:hidden">Let’s talk</Button>
+      {/* <Button className="rounded-full w-[120px] h-[33px] text-[10px] mb-6 lg:hidden">Let’s talk</Button> */}
 
       <Footer />
     </div>
