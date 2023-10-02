@@ -4,8 +4,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import Portfolio from "./Portfolio";
 import Info from "./Info";
 import Experience from "./Experience";
-import Testimonials from "./Testimonials"
-import Footer from './Footer'
+import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 import { Button } from "@/components/ui/button";
 
 const About: React.FC<{}> = () => {
@@ -22,10 +22,9 @@ worked with more than 20 companies as a freelancer on brand identity, package de
       <div className="flex bg-white flex-col  ml-[5%]">
         <div className="flex items-center  bg-white flex-col lg:flex-row 2xl:justify-between w-[90%]">
           {/* for desktop display */}
-          <div className="text-[16px] mt-0 text-[#3A3A3A] w-[33%] font-[500] hidden  lg:block 2xl:text-xl">ABOUT ME</div>
-
-
-        
+          <div className="text-[16px] mt-0 text-[#3A3A3A] w-[33%] font-[500] hidden  lg:block 2xl:text-xl">
+            ABOUT ME
+          </div>
 
           {/* <Avatar className="w-[300px] h-[300px] z-0 absolute hidden lg:block ">
             <AvatarImage src="/ellipse-3.png" />
@@ -52,8 +51,6 @@ worked with more than 20 companies as a freelancer on brand identity, package de
             <AvatarImage src="/niazi.png" />
             <AvatarFallback>MK</AvatarFallback>
           </Avatar>
-
-          
         </div>
         <div className="hidden lg:flex justify-between flex-row ">
           <div className="w-[30%] text-[#3A3A3A] ">
@@ -69,9 +66,10 @@ worked with more than 20 companies as a freelancer on brand identity, package de
             <p className="text-xs font-[500] 2xl:text-base w-[80%]">{descriptions[1]}</p>
           </div>
           <div className="w-[16%] text-[#3A3A3A] ml-[1%]  ">
-          <Button className="hidden rounded-full w-[150px] h-[36px] text-[10px] lg:block mt-[30%]  bg-[#FFFFFF] text-black hover:text-white border ml-7 2xl:mt-[20%]">SCROLL FOR MORE ▼ </Button>
+            <Button className="hidden rounded-full w-[150px] h-[36px] text-[10px] lg:block mt-[30%]  bg-[#FFFFFF] text-black hover:text-white border ml-7 2xl:mt-[20%]">
+              SCROLL FOR MORE ▼
+            </Button>
           </div>
-         
         </div>
       </div>
 

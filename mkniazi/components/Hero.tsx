@@ -38,7 +38,7 @@ const Hero: React.FC<{}> = () => {
 
         {/* settings */}
         <div className="ml-[-4rem]  lg:ml-[5rem] 2xl: w-[22rem]">
-          <h3 className="text-[24px] leading-7 sm:text-[30px] leading-9 ">
+          <h3 className="text-[24px] leading-7 sm:text-[30px] sm:leading-9 ">
             Brand Identity, <br /> Packaging & Web
           </h3>
 
