@@ -58,8 +58,8 @@ export default function Projects() {
             </div>
             <div className="mt-[5vh] text-base ml-[0vw] lg:mt-3 lg:ml-[10vw] lg:w-[30vw] lg:text-xl font-medium	">
               <p className="text-justify ">
-                Encore Pay is a white-label fintech platform provider. With a vision to "democratize finance for the
-                better", They offer an end-to-end fintech platform to our clients that would help them bring their
+                Encore Pay is a white-label fintech platform provider. With a vision to `&quot;`democratize finance for the
+                better`&quot;`, They offer an end-to-end fintech platform to our clients that would help them bring their
                 financial products to the market as soon as possible.
               </p>
             </div>
