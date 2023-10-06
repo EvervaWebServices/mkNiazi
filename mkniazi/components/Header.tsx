@@ -9,11 +9,11 @@ export const Header: React.FC<{}> = () => {
         <Image className=" " width={230} height={80} src="/logo.svg" alt="Logo" />
       </Link>
 
-      <h4 className="text-[10px] tracking-tight font-light sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[14px]">
+      <h4 className="text-[10px] tracking-tight font-light sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[.8rem]">
         DESIGNER <br /> PORTFOLIO /2020 -2023
       </h4>
 
-      <h4 className="text-[10px] tracking-tight font-light pl-6 sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:">
+      <h4 className="text-[10px] tracking-tight font-light pl-6 sm:text-[12px] lg:w-30 leading-4 ml-[10%] 2xl:text-[.8rem]">
         AVAILABLE FOR FREELANCE <br /> PROJECTS
       </h4>
       <Button className="rounded-full w-[120px] h-[38px] text-[10px] hidden lg:block ml-[10%] ">Let’s talk</Button>

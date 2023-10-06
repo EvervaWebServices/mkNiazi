@@ -23,21 +23,18 @@ const Hero: React.FC<{}> = () => {
       if (count > 6) {
         setCount(1);
       }
-    }, 2000);
+    }, 1000000);
   }, [count]);
 
   return (
     <div className="min-h-screen bg-[#ECECEC] flex-col p-3 min-w-[370px] items-center ">
       <Header />
-      <div className="items-center lg:flex  ml-[20%] mr-[20%] pt-[12%] pb-[12%]">
-        {/* {heros.map((h) => (
-          <Image key={h} className="mr-0 2xl:mr-[35%] " width={450} height={450} src={h} alt="circle design" />
-        ))} */}
+      <div className="items-center  lg:flex justify-center lg:h-[88vh] pt-[12%] pb-[12%]">
 
-        <Image className="mr-0 2xl:mr-[35%] " width={450} height={450} src={heros[count] ? heros[count] : "/hero/hero1.png"} alt="circle design" />
+        <Image className="mr-0 w-[70vw] lg:w-[26vw] xl:w-[16vw] 2xl:mr-[25vw]" width={450} height={450} src={heros[count] ? heros[count] : "/hero/hero1.png"} alt="circle design" />
 
         {/* settings */}
-        <div className="ml-[-4rem]  lg:ml-[5rem] 2xl: w-[22rem]">
+        <div className="  mt-[3vh] lg:mt-[0vh] lg:ml-[5rem] 2xl: w-[22rem]">
           <h3 className="text-[24px] leading-7 sm:text-[30px] sm:leading-9 ">
             Brand Identity, <br /> Packaging & Web
           </h3>

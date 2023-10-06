@@ -8,6 +8,21 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Portfolio from "@/components/Portfolio";
 import Footer from "@/components/Footer";
+import localFont from "@next/font/local";
+
+const visby = localFont({
+  src: [
+    {
+      path: "../../public/visby/VisbyCF-DemiBold.otf",
+      weight: "600",
+    },
+    {
+      path: "../../public/visby/VisbyCF-Medium.otf",
+      weight: "400",
+    },
+  ],
+  variable: "--font-visby",
+});
 
 export default function Projects() {
   const router = useRouter();
@@ -17,8 +32,11 @@ export default function Projects() {
   if (proj === undefined) {
     proj = projects[0];
   }
+
+ 
+
   return (
-    <>
+    <div className={visby.className }>
       <Header />
       {/* <h1>This is the project name {proj.name}</h1> */}
       <div className="flex justify-center">
@@ -104,6 +122,6 @@ export default function Projects() {
         <Portfolio />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
