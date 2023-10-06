@@ -27,14 +27,30 @@ const Hero: React.FC<{}> = () => {
   }, [count]);
 
   return (
-    <div className="min-h-screen bg-[#ECECEC] flex-col p-3 min-w-[370px] items-center ">
+    <div className="min-h-screen w-[100vw] bg-[#ECECEC] flex-col p-3 items-center ">
       <Header />
-      <div className="items-center  lg:flex justify-center lg:h-[88vh] pt-[12%] pb-[12%]">
+      <div className="items-center lg:flex justify-center lg:h-[88vh] pt-[12%] pb-[12%]">
+        <div className="flex justify-center  w-[97%] lg:w-[70vw] lg:hidden">
 
-        <Image className="mr-0 w-[70vw] lg:w-[26vw] xl:w-[16vw] 2xl:mr-[25vw]" width={450} height={450} src={heros[count] ? heros[count] : "/hero/hero1.png"} alt="circle design" />
+          <Image
+            className="mr-0 w-[70vw] lg:w-[26vw] xl:w-[16vw] 2xl:mr-[25vw]"
+            width={450}
+            height={450}
+            src={heros[count] ? heros[count] : "/hero/hero1.png"}
+            alt="circle design"
+          />
+        </div>
+
+        <Image
+            className=" hidden mr-0 w-[70vw] lg:w-[26vw] lg:flex xl:w-[16vw] 2xl:mr-[25vw]"
+            width={450}
+            height={450}
+            src={heros[count] ? heros[count] : "/hero/hero1.png"}
+            alt="circle design"
+          />
 
         {/* settings */}
-        <div className="  mt-[3vh] lg:mt-[0vh] lg:ml-[5rem] 2xl: w-[22rem]">
+        <div className=" ml-[3vw]  mt-[3vh] lg:mt-[0vh] lg:ml-[5rem] 2xl: w-[22rem]">
           <h3 className="text-[24px] leading-7 sm:text-[30px] sm:leading-9 ">
             Brand Identity, <br /> Packaging & Web
           </h3>
