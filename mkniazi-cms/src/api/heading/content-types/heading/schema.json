@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headings",
+  "info": {
+    "singularName": "heading",
+    "pluralName": "headings",
+    "displayName": "headings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "json"
+    },
+    "heroDescription": {
+      "type": "string"
+    }
+  }
+}
